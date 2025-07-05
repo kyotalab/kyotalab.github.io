@@ -4,8 +4,13 @@
     <title>Kyota Lab</title>
     <link>https://kyotalab.github.io/</link>
     <description>Recent content on Kyota Lab</description>
+    <image>
+      <title>Kyota Lab</title>
+      <url>https://kyotalab.github.io/images/og.png</url>
+      <link>https://kyotalab.github.io/images/og.png</link>
+    </image>
     <generator>Hugo -- 0.147.9</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <lastBuildDate>Sat, 05 Jul 2025 23:37:02 +0900</lastBuildDate>
     <atom:link href="https://kyotalab.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,6 +19,8 @@
       <pubDate>Sat, 05 Jul 2025 23:37:02 +0900</pubDate>
       <guid>https://kyotalab.github.io/posts/test/</guid>
       <description>&lt;p&gt;これはKyota Labのテスト投稿です。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>これはKyota Labのテスト投稿です。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

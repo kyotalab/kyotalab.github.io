@@ -1,4 +1,87 @@
 baseURL = 'https://kyotalab.github.io'
-languageCode = 'ja-jp'
+languageCode = 'ja'
 title = 'Kyota Lab'
 theme = 'PaperMod'
+defaultContentLanguage = 'ja'
+
+[pagination]
+  pagerSize = 10
+
+
+[languages]
+  [languages.ja]
+    languageName = "Japanese"
+    weight = 1
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
+# Enable menu links
+[[menu.main]]
+  identifier = "tech"
+  name = "Tech"
+  url = "/tech/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "devlog"
+  name = "DevLog"
+  url = "/devlog/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "thinking"
+  name = "Thinking"
+  url = "/thinking/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "growth"
+  name = "Growth"
+  url = "/growth/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "en"
+  name = "English"
+  url = "/en/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 6
+
+# Author Info
+[params]
+  author = "Kyota"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowWordCount = true
+  ShowFullTextinRSS = true
+  defaultTheme = "auto" # auto / dark / light
+  homeInfoMode = "normal"
+  images = ["images/og.png"]
+
+[params.homeInfoParams]
+  Title = "Kyota Lab"
+  Content = """Rustで思考とツールを磨きながら、AWS実務の学びも記録する実験室。
+
+業務外のプロダクト開発やOSS活動を通じて、日々の好奇心と成長を形にしています。"""
+
+[params.assets]
+  disableFingerprinting = true  # キャッシュ防止（任意）
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/kyotalab"
+
+[[params.socialIcons]]
+  name = "x-twitter"
+  url = "https://x.com/kyotalab"

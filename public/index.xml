@@ -4,16 +4,190 @@
     <title>Kyota Lab</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Kyota Lab</description>
+    <image>
+      <title>Kyota Lab</title>
+      <url>http://localhost:1313/images/og.png</url>
+      <link>http://localhost:1313/images/og.png</link>
+    </image>
     <generator>Hugo -- 0.147.9</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Sat, 05 Jul 2025 23:37:02 +0900</lastBuildDate>
+    <language>ja</language>
+    <lastBuildDate>Sun, 06 Jul 2025 00:09:43 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 06 Jul 2025 00:09:43 +0900</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;kyota--中田恭大&#34;&gt;Kyota / 中田恭大&lt;/h2&gt;
+&lt;p&gt;クラウドエンジニアとしてAWS環境の設計・運用・自動化に携わりながら、&lt;br&gt;
+RustでのOSSツール開発や、思考ログの仕組みづくりにも取り組んでいます。&lt;/p&gt;
+&lt;p&gt;営業職からのキャリアチェンジを経て、学習と実践を繰り返す中で「日々の記録と振り返り」の大切さを実感。&lt;br&gt;
+このブログでは、そんな私自身の技術・思考・習慣を言語化しながら共有していきます。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;経歴&#34;&gt;経歴&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;年&lt;/th&gt;
+          &lt;th&gt;経歴・活動&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2015年&lt;/td&gt;
+          &lt;td&gt;営業職として新卒入社。顧客対応・提案業務に従事。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2020年&lt;/td&gt;
+          &lt;td&gt;IT分野に関心を持ち、独学でプログラミング学習を開始。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2021年&lt;/td&gt;
+          &lt;td&gt;エンジニアへキャリアチェンジ。Python / AWS を業務で扱い始める。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2023年&lt;/td&gt;
+          &lt;td&gt;AWS Lambda / CloudWatch / EventBridge による運用自動化に携わる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2025年&lt;/td&gt;
+          &lt;td&gt;RustによるCLIツール開発を開始。OSSとして &lt;a href=&#34;https://github.com/kyotalab/vento&#34;&gt;Vento&lt;/a&gt;, &lt;a href=&#34;https://github.com/kyotalab/xcut&#34;&gt;xcut&lt;/a&gt; などを公開。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;現在&lt;/td&gt;
+          &lt;td&gt;クラウドエンジニアとして実務に携わりつつ、Rustや自己内省ツールの開発を継続中。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;技術スタック&#34;&gt;技術スタック&lt;/h2&gt;
+&lt;h3 id=&#34;-クラウド--インフラ&#34;&gt;☁️ クラウド / インフラ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AWS&lt;/strong&gt;: Lambda / CloudWatch / S3 / IAM / EventBridge&lt;/li&gt;
+&lt;li&gt;IaC: CloudFormation（YAML）, CDK（勉強中）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-使用言語ツール&#34;&gt;🧰 使用言語・ツール&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rust&lt;/strong&gt;: CLIツール開発, &lt;code&gt;clap&lt;/code&gt;, &lt;code&gt;ratatui&lt;/code&gt;, &lt;code&gt;serde&lt;/code&gt; など&lt;/li&gt;
+&lt;li&gt;Python: 業務用の自動化スクリプトやLambda開発&lt;/li&gt;
+&lt;li&gt;Go: CLI習作&lt;/li&gt;
+&lt;li&gt;Git / GitHub / GitHub Actions&lt;/li&gt;
+&lt;li&gt;Hugo: 当ブログ運用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-oss-projects&#34;&gt;🛠 OSS Projects&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kyotalab/vento&#34;&gt;Vento&lt;/a&gt;: ファイル転送用CLIツール&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kyotalab/xcut&#34;&gt;xcut&lt;/a&gt;: cutコマンドの拡張版CLIツール&lt;/li&gt;
+&lt;li&gt;他、Rust製Zettelkasten支援ツールやTUIエディタなど開発中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;興味今後やりたいこと&#34;&gt;興味・今後やりたいこと&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;日常の「作業・思考・行動」をRustでツール化すること&lt;/li&gt;
+&lt;li&gt;複雑すぎない設計でOSSプロダクトを継続運用する仕組みづくり&lt;/li&gt;
+&lt;li&gt;自己内省・行動習慣・Zettelkastenを支える仕組みの公開&lt;/li&gt;
+&lt;li&gt;英語対応とブログの海外発信&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;sns--links&#34;&gt;SNS &amp;amp; Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📦 GitHub: &lt;a href=&#34;https://github.com/kyotalab&#34;&gt;kyotalab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 X (旧Twitter): &lt;a href=&#34;https://x.com/kyotalab&#34;&gt;@kyotalab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 Blog: &lt;a href=&#34;https://kyotalab.github.io&#34;&gt;Kyota Lab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;免責事項&#34;&gt;免責事項&lt;/h2&gt;
+&lt;p&gt;本ブログに記載されている内容は、個人の見解であり所属企業を代表するものではありません。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="kyota--中田恭大">Kyota / 中田恭大</h2>
+<p>クラウドエンジニアとしてAWS環境の設計・運用・自動化に携わりながら、<br>
+RustでのOSSツール開発や、思考ログの仕組みづくりにも取り組んでいます。</p>
+<p>営業職からのキャリアチェンジを経て、学習と実践を繰り返す中で「日々の記録と振り返り」の大切さを実感。<br>
+このブログでは、そんな私自身の技術・思考・習慣を言語化しながら共有していきます。</p>
+<hr>
+<h2 id="経歴">経歴</h2>
+<table>
+  <thead>
+      <tr>
+          <th>年</th>
+          <th>経歴・活動</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>2015年</td>
+          <td>営業職として新卒入社。顧客対応・提案業務に従事。</td>
+      </tr>
+      <tr>
+          <td>2020年</td>
+          <td>IT分野に関心を持ち、独学でプログラミング学習を開始。</td>
+      </tr>
+      <tr>
+          <td>2021年</td>
+          <td>エンジニアへキャリアチェンジ。Python / AWS を業務で扱い始める。</td>
+      </tr>
+      <tr>
+          <td>2023年</td>
+          <td>AWS Lambda / CloudWatch / EventBridge による運用自動化に携わる。</td>
+      </tr>
+      <tr>
+          <td>2025年</td>
+          <td>RustによるCLIツール開発を開始。OSSとして <a href="https://github.com/kyotalab/vento">Vento</a>, <a href="https://github.com/kyotalab/xcut">xcut</a> などを公開。</td>
+      </tr>
+      <tr>
+          <td>現在</td>
+          <td>クラウドエンジニアとして実務に携わりつつ、Rustや自己内省ツールの開発を継続中。</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="技術スタック">技術スタック</h2>
+<h3 id="-クラウド--インフラ">☁️ クラウド / インフラ</h3>
+<ul>
+<li><strong>AWS</strong>: Lambda / CloudWatch / S3 / IAM / EventBridge</li>
+<li>IaC: CloudFormation（YAML）, CDK（勉強中）</li>
+</ul>
+<h3 id="-使用言語ツール">🧰 使用言語・ツール</h3>
+<ul>
+<li><strong>Rust</strong>: CLIツール開発, <code>clap</code>, <code>ratatui</code>, <code>serde</code> など</li>
+<li>Python: 業務用の自動化スクリプトやLambda開発</li>
+<li>Go: CLI習作</li>
+<li>Git / GitHub / GitHub Actions</li>
+<li>Hugo: 当ブログ運用</li>
+</ul>
+<h3 id="-oss-projects">🛠 OSS Projects</h3>
+<ul>
+<li><a href="https://github.com/kyotalab/vento">Vento</a>: ファイル転送用CLIツール</li>
+<li><a href="https://github.com/kyotalab/xcut">xcut</a>: cutコマンドの拡張版CLIツール</li>
+<li>他、Rust製Zettelkasten支援ツールやTUIエディタなど開発中</li>
+</ul>
+<hr>
+<h2 id="興味今後やりたいこと">興味・今後やりたいこと</h2>
+<ul>
+<li>日常の「作業・思考・行動」をRustでツール化すること</li>
+<li>複雑すぎない設計でOSSプロダクトを継続運用する仕組みづくり</li>
+<li>自己内省・行動習慣・Zettelkastenを支える仕組みの公開</li>
+<li>英語対応とブログの海外発信</li>
+</ul>
+<hr>
+<h2 id="sns--links">SNS &amp; Links</h2>
+<ul>
+<li>📦 GitHub: <a href="https://github.com/kyotalab">kyotalab</a></li>
+<li>🐦 X (旧Twitter): <a href="https://x.com/kyotalab">@kyotalab</a></li>
+<li>💬 Blog: <a href="https://kyotalab.github.io">Kyota Lab</a></li>
+</ul>
+<hr>
+<h2 id="免責事項">免責事項</h2>
+<p>本ブログに記載されている内容は、個人の見解であり所属企業を代表するものではありません。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Test</title>
       <link>http://localhost:1313/posts/test/</link>
       <pubDate>Sat, 05 Jul 2025 23:37:02 +0900</pubDate>
       <guid>http://localhost:1313/posts/test/</guid>
       <description>&lt;p&gt;これはKyota Labのテスト投稿です。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>これはKyota Labのテスト投稿です。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

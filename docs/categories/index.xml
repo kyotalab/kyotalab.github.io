@@ -4,8 +4,13 @@
     <title>Categories on Kyota Lab</title>
     <link>https://kyotalab.github.io/categories/</link>
     <description>Recent content in Categories on Kyota Lab</description>
+    <image>
+      <title>Kyota Lab</title>
+      <url>https://kyotalab.github.io/images/og.png</url>
+      <link>https://kyotalab.github.io/images/og.png</link>
+    </image>
     <generator>Hugo -- 0.147.9</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
     <atom:link href="https://kyotalab.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
