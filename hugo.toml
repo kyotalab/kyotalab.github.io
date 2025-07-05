@@ -1,0 +1,4 @@
+baseURL = 'https://kyotalab.github.io'
+languageCode = 'ja-jp'
+title = 'Kyota Lab'
+theme = 'PaperMod'
